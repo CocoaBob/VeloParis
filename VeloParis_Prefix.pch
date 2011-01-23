@@ -1,0 +1,14 @@
+//
+// Prefix header for all source files of the 'VeloParis' target in the 'VeloParis' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#define kLastLocationLatitude @"kLastLocationLatitude"
+#define kLastLocationLongitude @"kLastLocationLongitude"
+#define kMapType @"kMapType"
+#define kIsNotFirstTimeLaunch @"kIsNotFirstTimeLaunch"
+#define kHasCheckedAvailablity @"kHasCheckedAvailablity"
