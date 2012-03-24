@@ -486,7 +486,7 @@
 }
 
 - (void)setAnnotationView:(StationAnnotation *)stationAnnotation strAvailable:(NSString *)strAvailable strFree:(NSString *)strFree strTotal:(NSString *)strTotal{
-	[stationAnnotation setSubtitle:[NSString stringWithFormat:@"%@ %@ %@",strAvailable,strFree,strTotal]];
+	[stationAnnotation setSubtitle:[NSString stringWithFormat:@" %@ / %@",strAvailable,strTotal]];
 	
 	PinAnnotationView *pinAnnotationView = (PinAnnotationView *)[mMapView viewForAnnotation:stationAnnotation];
 	
