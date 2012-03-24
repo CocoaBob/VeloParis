@@ -7,17 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1029B7C612ECF98B007A640B /* BackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = 1029B7A112ECF98B007A640B /* BackGround.png */; };
-		1029B7C712ECF98B007A640B /* BackGround@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1029B7A212ECF98B007A640B /* BackGround@2x.png */; };
-		1029B7C812ECF98B007A640B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1029B7A312ECF98B007A640B /* Default.png */; };
-		1029B7C912ECF98B007A640B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1029B7A412ECF98B007A640B /* Default@2x.png */; };
+		1001D4EC151E73E100975171 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1001D4EB151E73E100975171 /* MainWindow_iPhone.xib */; };
 		1029B7CA12ECF98B007A640B /* FavoriteOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 1029B7A512ECF98B007A640B /* FavoriteOff.png */; };
 		1029B7CB12ECF98B007A640B /* FavoriteOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1029B7A612ECF98B007A640B /* FavoriteOff@2x.png */; };
 		1029B7CC12ECF98B007A640B /* FavoriteOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1029B7A712ECF98B007A640B /* FavoriteOn.png */; };
 		1029B7CD12ECF98B007A640B /* FavoriteOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1029B7A812ECF98B007A640B /* FavoriteOn@2x.png */; };
 		1029B7CE12ECF98B007A640B /* ICON.png in Resources */ = {isa = PBXBuildFile; fileRef = 1029B7A912ECF98B007A640B /* ICON.png */; };
-		1029B7CF12ECF98B007A640B /* ICON_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1029B7AA12ECF98B007A640B /* ICON_114.png */; };
-		1029B7D012ECF98B007A640B /* ICON_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1029B7AB12ECF98B007A640B /* ICON_72.png */; };
+		1029B7CF12ECF98B007A640B /* ICON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1029B7AA12ECF98B007A640B /* ICON@2x.png */; };
+		1029B7D012ECF98B007A640B /* ICON-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1029B7AB12ECF98B007A640B /* ICON-72.png */; };
 		1029B7D112ECF98B007A640B /* ICON_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 1029B7AC12ECF98B007A640B /* ICON_SMALL.png */; };
 		1029B7D212ECF98B007A640B /* ICON_SMALL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1029B7AD12ECF98B007A640B /* ICON_SMALL@2x.png */; };
 		1029B7D312ECF98B007A640B /* IconFavorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1029B7AE12ECF98B007A640B /* IconFavorite.png */; };
@@ -51,9 +48,9 @@
 		1029B80212ECF9C5007A640B /* PinAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1029B7F712ECF9C5007A640B /* PinAnnotationView.m */; };
 		1029B80312ECF9C5007A640B /* StationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1029B7F912ECF9C5007A640B /* StationAnnotation.m */; };
 		1029B82A12ECFAB7007A640B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1029B82912ECFAB7007A640B /* main.m */; };
-		1029E83C121B1F2700EB15A1 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1029E83A121B1F2700EB15A1 /* MainWindow_iPhone.xib */; };
 		1029E84A121B1FBD00EB15A1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1029E849121B1FBD00EB15A1 /* MapKit.framework */; };
 		1029E863121B1FCE00EB15A1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1029E862121B1FCE00EB15A1 /* CoreLocation.framework */; };
+		106DE877151E72CE001615B8 /* ICON-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 106DE876151E72CE001615B8 /* ICON-72@2x.png */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E326111B887F00E27156 /* AppDelegate_iPhone.m */; };
@@ -63,17 +60,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1029B7A112ECF98B007A640B /* BackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackGround.png; path = Shared/PNG/BackGround.png; sourceTree = SOURCE_ROOT; };
-		1029B7A212ECF98B007A640B /* BackGround@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BackGround@2x.png"; path = "Shared/PNG/BackGround@2x.png"; sourceTree = SOURCE_ROOT; };
-		1029B7A312ECF98B007A640B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Shared/PNG/Default.png; sourceTree = SOURCE_ROOT; };
-		1029B7A412ECF98B007A640B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Shared/PNG/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		1001D4EB151E73E100975171 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
 		1029B7A512ECF98B007A640B /* FavoriteOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FavoriteOff.png; path = Shared/PNG/FavoriteOff.png; sourceTree = SOURCE_ROOT; };
 		1029B7A612ECF98B007A640B /* FavoriteOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FavoriteOff@2x.png"; path = "Shared/PNG/FavoriteOff@2x.png"; sourceTree = SOURCE_ROOT; };
 		1029B7A712ECF98B007A640B /* FavoriteOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FavoriteOn.png; path = Shared/PNG/FavoriteOn.png; sourceTree = SOURCE_ROOT; };
 		1029B7A812ECF98B007A640B /* FavoriteOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FavoriteOn@2x.png"; path = "Shared/PNG/FavoriteOn@2x.png"; sourceTree = SOURCE_ROOT; };
 		1029B7A912ECF98B007A640B /* ICON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ICON.png; path = Shared/PNG/ICON.png; sourceTree = SOURCE_ROOT; };
-		1029B7AA12ECF98B007A640B /* ICON_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ICON_114.png; path = Shared/PNG/ICON_114.png; sourceTree = SOURCE_ROOT; };
-		1029B7AB12ECF98B007A640B /* ICON_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ICON_72.png; path = Shared/PNG/ICON_72.png; sourceTree = SOURCE_ROOT; };
+		1029B7AA12ECF98B007A640B /* ICON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ICON@2x.png"; path = "Shared/PNG/ICON@2x.png"; sourceTree = SOURCE_ROOT; };
+		1029B7AB12ECF98B007A640B /* ICON-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ICON-72.png"; path = "Shared/PNG/ICON-72.png"; sourceTree = SOURCE_ROOT; };
 		1029B7AC12ECF98B007A640B /* ICON_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ICON_SMALL.png; path = Shared/PNG/ICON_SMALL.png; sourceTree = SOURCE_ROOT; };
 		1029B7AD12ECF98B007A640B /* ICON_SMALL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ICON_SMALL@2x.png"; path = "Shared/PNG/ICON_SMALL@2x.png"; sourceTree = SOURCE_ROOT; };
 		1029B7AE12ECF98B007A640B /* IconFavorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IconFavorite.png; path = Shared/PNG/IconFavorite.png; sourceTree = SOURCE_ROOT; };
@@ -116,15 +110,10 @@
 		1029B80A12ECFA1A007A640B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		1029B81012ECFA40007A640B /* VeloParis_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeloParis_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		1029B82912ECFAB7007A640B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
-		1029E83B121B1F2700EB15A1 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		1029E840121B1F4E00EB15A1 /* zh_HK */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_HK; path = zh_HK.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		1029E841121B1F5200EB15A1 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		1029E842121B1F5800EB15A1 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = Japanese.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		1029E843121B1F6200EB15A1 /* German */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = German; path = German.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		1029E844121B1F6700EB15A1 /* French */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = French; path = French.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
 		1029E849121B1FBD00EB15A1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1029E862121B1FCE00EB15A1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		105A3BFB13020631005B5D7C /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynthesizeSingleton.h; path = Shared/SynthesizeSingleton.h; sourceTree = SOURCE_ROOT; };
+		106DE876151E72CE001615B8 /* ICON-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICON-72@2x.png"; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* VeloParis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeloParis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -155,17 +144,14 @@
 		1029B7A012ECF98B007A640B /* PNG */ = {
 			isa = PBXGroup;
 			children = (
-				1029B7A112ECF98B007A640B /* BackGround.png */,
-				1029B7A212ECF98B007A640B /* BackGround@2x.png */,
-				1029B7A312ECF98B007A640B /* Default.png */,
-				1029B7A412ECF98B007A640B /* Default@2x.png */,
 				1029B7A512ECF98B007A640B /* FavoriteOff.png */,
 				1029B7A612ECF98B007A640B /* FavoriteOff@2x.png */,
 				1029B7A712ECF98B007A640B /* FavoriteOn.png */,
 				1029B7A812ECF98B007A640B /* FavoriteOn@2x.png */,
 				1029B7A912ECF98B007A640B /* ICON.png */,
-				1029B7AA12ECF98B007A640B /* ICON_114.png */,
-				1029B7AB12ECF98B007A640B /* ICON_72.png */,
+				1029B7AA12ECF98B007A640B /* ICON@2x.png */,
+				1029B7AB12ECF98B007A640B /* ICON-72.png */,
+				106DE876151E72CE001615B8 /* ICON-72@2x.png */,
 				1029B7AC12ECF98B007A640B /* ICON_SMALL.png */,
 				1029B7AD12ECF98B007A640B /* ICON_SMALL@2x.png */,
 				1029B7AE12ECF98B007A640B /* IconFavorite.png */,
@@ -210,7 +196,7 @@
 			children = (
 				2860E325111B887F00E27156 /* AppDelegate_iPhone.h */,
 				2860E326111B887F00E27156 /* AppDelegate_iPhone.m */,
-				1029E83A121B1F2700EB15A1 /* MainWindow_iPhone.xib */,
+				1001D4EB151E73E100975171 /* MainWindow_iPhone.xib */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -337,18 +323,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */,
-				1029E83C121B1F2700EB15A1 /* MainWindow_iPhone.xib in Resources */,
-				1029B7C612ECF98B007A640B /* BackGround.png in Resources */,
-				1029B7C712ECF98B007A640B /* BackGround@2x.png in Resources */,
-				1029B7C812ECF98B007A640B /* Default.png in Resources */,
-				1029B7C912ECF98B007A640B /* Default@2x.png in Resources */,
 				1029B7CA12ECF98B007A640B /* FavoriteOff.png in Resources */,
 				1029B7CB12ECF98B007A640B /* FavoriteOff@2x.png in Resources */,
 				1029B7CC12ECF98B007A640B /* FavoriteOn.png in Resources */,
 				1029B7CD12ECF98B007A640B /* FavoriteOn@2x.png in Resources */,
 				1029B7CE12ECF98B007A640B /* ICON.png in Resources */,
-				1029B7CF12ECF98B007A640B /* ICON_114.png in Resources */,
-				1029B7D012ECF98B007A640B /* ICON_72.png in Resources */,
+				1029B7CF12ECF98B007A640B /* ICON@2x.png in Resources */,
+				1029B7D012ECF98B007A640B /* ICON-72.png in Resources */,
 				1029B7D112ECF98B007A640B /* ICON_SMALL.png in Resources */,
 				1029B7D212ECF98B007A640B /* ICON_SMALL@2x.png in Resources */,
 				1029B7D312ECF98B007A640B /* IconFavorite.png in Resources */,
@@ -375,6 +356,8 @@
 				1029B7E812ECF98B007A640B /* pinYellowGreen@2x.png in Resources */,
 				1029B7E912ECF98B007A640B /* UserHeading.png in Resources */,
 				1029B7EA12ECF98B007A640B /* UserHeading@2x.png in Resources */,
+				106DE877151E72CE001615B8 /* ICON-72@2x.png in Resources */,
+				1001D4EC151E73E100975171 /* MainWindow_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,23 +382,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		1029E83A121B1F2700EB15A1 /* MainWindow_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1029E83B121B1F2700EB15A1 /* English */,
-				1029E840121B1F4E00EB15A1 /* zh_HK */,
-				1029E841121B1F5200EB15A1 /* zh_CN */,
-				1029E842121B1F5800EB15A1 /* Japanese */,
-				1029E843121B1F6200EB15A1 /* German */,
-				1029E844121B1F6700EB15A1 /* French */,
-			);
-			name = MainWindow_iPhone.xib;
-			path = iPhone;
-			sourceTree = SOURCE_ROOT;
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		105CDC3E121DCEAB00927D13 /* Distribution */ = {
 			isa = XCBuildConfiguration;
@@ -438,11 +404,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mengke WANG (HPHWG82ABX)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = VeloParis_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = VeloParis;
+				PROVISIONING_PROFILE = "1C223AEF-D072-4EC3-8AA7-67DA6F603E40";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -452,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mengke WANG (HPHWG82ABX)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -459,6 +428,7 @@
 				GCC_PREFIX_HEADER = VeloParis_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = VeloParis;
+				PROVISIONING_PROFILE = "1C223AEF-D072-4EC3-8AA7-67DA6F603E40";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -467,11 +437,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mengke WANG (HPHWG82ABX)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = VeloParis_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = VeloParis;
+				PROVISIONING_PROFILE = "1C223AEF-D072-4EC3-8AA7-67DA6F603E40";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
