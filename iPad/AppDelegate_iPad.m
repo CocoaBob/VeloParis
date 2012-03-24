@@ -88,7 +88,7 @@
 	coordinate.latitude = latitude;
 	coordinate.longitude = longitude;
 	
-	[self setMapLocation:coordinate distance:300 animated:NO];
+	[self setMapLocation:coordinate distance:500 animated:NO];
 	
 	[mMapView setShowsUserLocation:YES];
 	[mMapView setMapType:[[NSUserDefaults standardUserDefaults] integerForKey:kMapType]];
@@ -658,7 +658,7 @@
 	StationAnnotation *stationAnnotation = [mAllStationAnnotationData valueForKey:stationID];
 	NSString *subTitle = [stationAnnotation subtitle];
 	cell.mLeftLabel.text = [NSString stringWithFormat:@"%@",[[[stationAnnotation title] componentsSeparatedByString:@" - "] lastObject]];
-	cell.mMiddleLabel.text = subTitle?[NSString stringWithFormat:@" %@",subTitle]:@"";
+	cell.mMiddleLabel.text = subTitle?subTitle:@"";
     cell.mRightLabel.text = [NSString stringWithFormat:@"  %@",stationID];
 	CLLocation *location = [[CLLocation alloc] initWithLatitude:stationAnnotation.coordinate.latitude longitude:stationAnnotation.coordinate.longitude];
 	CLLocation *userLocation = [mLocationManager location];
@@ -688,7 +688,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *stationID = [self.mFavoriteList objectAtIndex:indexPath.row];
 	StationAnnotation *stationAnnotation = [mAllStationAnnotationData valueForKey:stationID];
-	[self setMapLocation:stationAnnotation.coordinate distance:200 animated:NO];
+	[self setMapLocation:stationAnnotation.coordinate distance:500 animated:NO];
 	[self doSwitchView:self];
 	[mMapView selectAnnotation:stationAnnotation animated:YES];
 }

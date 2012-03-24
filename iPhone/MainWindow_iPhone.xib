@@ -451,7 +451,7 @@
 										<string key="IBUIText">©2010 CocoaBob</string>
 										<object class="NSColor" key="IBUITextColor">
 											<int key="NSColorSpace">3</int>
-											<bytes key="NSWhite">MC41AA</bytes>
+											<bytes key="NSWhite">MC4yNQA</bytes>
 											<reference key="NSCustomColorSpace" ref="564476337"/>
 										</object>
 										<nil key="IBUIHighlightedColor"/>
@@ -5388,6 +5388,7 @@ AAgAAAAIAAIACAACAAAAAgAAAAEAAQABAAE</bytes>
 						<int key="objectID">156</int>
 						<reference key="object" ref="447949572"/>
 						<reference key="parent" ref="105897250"/>
+						<string key="objectName">Label - ©2012 CocoaBob</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">155</int>
