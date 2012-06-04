@@ -1,11 +1,11 @@
 An iOS app used to check Paris public bicycles status. You can find nearby stations and the number of bicycles left.
 
-![screenshot](https://github.com/CocoaBob/VeloParis/raw/master/Screenshots/1.png "Screenshot")
+![Screenshot 1](https://github.com/CocoaBob/VeloParis/blob/master/Screenshots/1.jpg "Screenshot")
 
-![screenshot](https://github.com/CocoaBob/VeloParis/raw/master/Screenshots/2.png "Screenshot")
+![Screenshot 2](https://github.com/CocoaBob/VeloParis/blob/master/Screenshots/2.jpg "Screenshot")
 
-![screenshot](https://github.com/CocoaBob/VeloParis/raw/master/Screenshots/3.png "Screenshot")
+![Screenshot 3](https://github.com/CocoaBob/VeloParis/blob/master/Screenshots/3.jpg "Screenshot")
 
-![screenshot](https://github.com/CocoaBob/VeloParis/raw/master/Screenshots/4.png "Screenshot")
+![Screenshot 4](https://github.com/CocoaBob/VeloParis/blob/master/Screenshots/4.jpg "Screenshot")
 
-![screenshot](https://github.com/CocoaBob/VeloParis/raw/master/Screenshots/5.png "Screenshot")
+![Screenshot 5](https://github.com/CocoaBob/VeloParis/blob/master/Screenshots/5.jpg "Screenshot")
